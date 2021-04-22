@@ -1,0 +1,144 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: #dce2f3;
+  color: #000;
+  line-height: 1.5;
+  font-size: 0.875rem;
+  font-size: 100%;
+}
+
+.blackbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: absolute;
+}
+
+.blackbox div {
+  width: 420px;
+  height: 440px;
+  background-color: #000;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: absolute;
+}
+
+#main {
+  background-color: #fff;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 500px;
+  border-radius: 20px;
+  z-index: 2;
+}
+
+#main .header h3 {
+  font-size: 1.5rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+}
+
+#main .header p {
+  width: 74%;
+}
+
+#main .rate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#main .rate .first {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#main .rate .last {
+  border-right: solid #e2e2e2 1.75px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#main .rate div {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 42px;
+  height: 42px;
+  border: #e2e2e2 solid 1.75px;
+  border-right: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#main .rate div:hover {
+  background-color: #e2e2e2;
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#main .under-rate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 0.75rem;
+  margin-top: 20px;
+}
+
+#main footer {
+  margin-top: 40px;
+  font-size: 0.75rem;
+}
+
+#main footer a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
